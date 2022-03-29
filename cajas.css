@@ -1,0 +1,65 @@
+.caja1 {
+    background-color: #7a10a5b0;
+    transition: transform .5s; /* animation */
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    color: aliceblue;
+    font-family: Lucida Sans;
+    text-decoration: none;
+  }
+  .caja1:hover {
+    transform: scale(.98);
+  }
+  .caja2 {
+    background-color: #7a10a5b0;
+    transition: transform .5s; /* animation */
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    color: aliceblue;
+    font-family: Lucida Sans;
+    text-decoration: none;
+  }
+  .caja2:hover {
+    transform: scale(.98);
+  }
+  .caja3 {
+    background-color: #7a10a5b0;
+    transition: transform .5s; /* animation */
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    color: aliceblue;
+    font-family: Lucida Sans;
+    text-decoration: none;
+  }
+  .caja3:hover {
+    transform: scale(.98);
+  }
+  .caja4 {
+    background-color: #7a10a5b0;
+    transition: transform .5s; /* animation */
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    color: aliceblue;
+    font-family: Lucida Sans;
+    text-decoration: none;
+  }
+  .caja4:hover {
+    transform: scale(.98);
+  }
+  .caja5 {
+    background-color: #7a10a5b0;
+    transition: transform .5s; /* animation */
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    color: aliceblue;
+    font-family: Lucida Sans;
+    text-decoration: none;
+  }
+  .caja5:hover {
+    transform: scale(.98);
+  }
