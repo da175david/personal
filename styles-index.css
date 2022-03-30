@@ -1,44 +1,35 @@
 /*principal body */
 body {
-  background-image: url(/EXP/img/unnamed.gif);
+  background-image: url(/img/minimalistback.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0;
-
+}
+* {
+  border: solid;
+  color: red;
 }
  /*----APARTADO-1------*/
-header {
-  color: antiquewhite;
-  text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 20px;
-  padding-bottom: 10px;
-}
- /*----APARTADO-2------*/
 .father-supreme {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
 }
-
 .box-title {
   color: azure;
   font-family:'Courier New';
   font-size: 60px;
   text-align: center;
-}
-
-.box {
-  align-items: center;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   background-color: #00000048;
-  width: 1200px;
-  height: 800px;
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 20vh;
 }
-  /*----APARTADO-3------*/
+  /*----APARTADO-2------*/
   .title {
     color: #ffffff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -49,7 +40,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
+    margin-bottom: 10vh;
   }
   .part1 {
     width: 48%;
@@ -58,7 +49,65 @@ header {
   }
   .part2 {
     width: 48%;
-    height: 75vh;
-    background-color: greenyellow;
+    height: 74vh;
+    background-color: rgba(47, 161, 255, 0.171);
   }
-   /*----APARTADO-4------*/
+   /*----APARTADO-3------*/
+  .dats {
+    font-size: 2.5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+  }
+  .text1 {
+    font-size: 1.5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+  }
+  /*-----APARTADO--4-----*/
+  .exp {
+    color: azure;
+    font-family:'Courier New';
+    font-size: 60px;
+    text-align: center;
+    align-items:center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #00000048;
+    width: 100%;
+    height: 120vh;
+    margin-bottom: 20vh;
+  }
+  .box1 {
+    width: 30%;
+  }
+  .box2 {
+    width: 30%;
+  }
+  .box3 {
+    width: 30%;
+  }
+  /*-------APARTADO-5-------*/
+  .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #00000048;
+    grid-auto-rows: 150px;
+    padding: 20px;
+    grid-gap: 10px;
+    width: 90%;
+  }
+  .gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .gallery__item:nth-child(1) {
+    grid-row-start: span 2;
+  }
+  .gallery__item:nth-child(5) {
+    grid-column-start: span 2;
+  }
+
+  /*----checar este video  https://www.youtube.com/watch?v=rVA3qechYzg  ---------*/
+  
+  /*-----Content resposive {height: fit-content}------*/
