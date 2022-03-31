@@ -6,7 +6,6 @@ body {
   background-attachment: fixed;
   margin: 0;
 }
-
  /*----APARTADO-1------*/
 .father-supreme {
   display: flex;
@@ -32,7 +31,6 @@ body {
   display: grid;
   position: relative;
   right: 20%;
-  
 }
 .start {
   width: 100%;
@@ -161,6 +159,6 @@ body {
     grid-column-start: span 1;
     grid-row-start: span 3;
   }
-  /*----checar este video  https://www.youtube.com/watch?v=rVA3qechYzg  ---------*/
+  /*------RECORDATORIO-ESTA ES MI PRIMER PAGINA QUE FINALICE EN MI VIDA--30-03-2022-----*/
   
-  /*-----Content resposive {height: fit-content}*/
+/*----Content resposive {height: fit-content}-----*/
