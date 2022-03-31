@@ -16,7 +16,6 @@ body {
 .box-title {
   display: grid;
   justify-content: center;
-  background-color: #00000048;
   width: 100%;
   height: 100vh;
   margin-bottom: 20vh;
@@ -47,7 +46,6 @@ body {
   .part1 {
     width: 48%;
     height: auto;
-    background-color: brown;
   }
   .part2 {
     width: 48%;
